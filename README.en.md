@@ -14,9 +14,9 @@
 
 ---
 
-Zotero Eye Care is a tiny theme-preset plugin built specifically for **Zotero 9**. It adds four carefully selected palettes to Zotero Reader's native **Appearance → Themes** panel—without floating buttons, translucent PDF overlays, or changes to the library UI.
+Zotero Eye Care is a tiny theme-preset plugin built specifically for **Zotero 9**. It adds four carefully selected palettes to Zotero Reader's native **Appearance → Themes** panel and uses Zotero's existing theme engine and interactions.
 
-> **To be clear: Zotero 9 already includes Original, Dark, Black, Snow, and Sepia themes, and it already lets users create custom themes.** This plugin does not replace those features. It adds four tuned eye-care presets and manages their installation, recovery, disable, and uninstall lifecycle.
+> Zotero 9 includes Original, Dark, Black, Snow, and Sepia themes and supports custom themes. This plugin adds four tuned eye-care presets and manages their installation, recovery, disable, and uninstall lifecycle.
 
 <p align="center">
   <img src="assets/palette.svg" alt="Soft Green, Warm Paper, Mist Blue, and Night Gray" width="860" />
@@ -33,9 +33,9 @@ Zotero Eye Care is a tiny theme-preset plugin built specifically for **Zotero 9*
 
 Every pair exceeds WCAG AA contrast for body text. Images, figures, and annotations keep their original colors.
 
-## Real screenshots
+## Theme preview
 
-These are genuine Zotero 9.0.6 screenshots, not mockups. Clockwise from the top left: Soft Green, Warm Paper, Night Gray, and Mist Blue. Private Zotero tabs were cropped out.
+Clockwise from the top left: Soft Green, Warm Paper, Night Gray, and Mist Blue.
 
 <p align="center">
   <img src="docs/screenshots/theme-gallery.jpg" alt="All four Zotero Eye Care themes running in Zotero 9" width="100%" />
@@ -46,10 +46,10 @@ The page and text are recolored by Zotero's native reader engine, while colored 
 ## Why it stays tiny
 
 - **Native by design** — themes live in Zotero's own Appearance panel and use its persistence and sync behavior.
-- **No overlay tricks** — Zotero 9's reader theme engine recolors the page and text.
-- **Reader only** — works with PDF, EPUB, and web snapshots without recoloring the library UI.
-- **Zero dependencies, zero network access** — no document, attachment, or personal-data access.
-- **Clean lifecycle** — existing custom themes are preserved; disable or uninstall removes only these four presets.
+- **Native recoloring** — Zotero 9's reader theme engine recolors the page and text.
+- **Reader scope** — works with PDF, EPUB, and web snapshots while leaving the library UI unchanged.
+- **Lightweight** — zero third-party dependencies, with theme switching handled locally.
+- **Compatible lifecycle** — existing custom themes are preserved; disable or uninstall removes only these four presets.
 
 ## Install
 
@@ -77,7 +77,7 @@ After opening a PDF, EPUB, or web snapshot:
 
 ## Market position
 
-This is not the first attempt at a calmer Zotero reading background. It occupies a narrower niche: **a minimal, curated preset pack built directly on Zotero 9's native theme system**.
+Its focus is **a minimal, curated preset pack built directly on Zotero 9's native theme system**.
 
 | Option | Zotero 9 | Approach | Scope | Position |
 |---|---|---|---|---|
@@ -101,7 +101,7 @@ The XPI is written to `dist/zotero-eye-care-1.0.0.xpi`. CI verifies merge/cleanu
 
 ## Privacy
 
-The plugin only updates Zotero's native `readerCustomThemes` setting. It does not read your library or attachments and makes no network requests.
+The plugin operates only on Zotero's native `readerCustomThemes` setting and requires no network, library, or attachment access.
 
 ## License
 
