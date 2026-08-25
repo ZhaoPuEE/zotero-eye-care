@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250" role="img" aria-labelledby="title">
+  <title id="title">Four eye-care reading palettes</title>
+  <rect width="920" height="250" rx="26" fill="#F8FAF8"/>
+  <g font-family="Arial">
+    <g transform="translate(24 24)">
+      <rect width="200" height="202" rx="20" fill="#DCEAD8"/>
+      <text x="20" y="44" font-size="20" font-weight="700" fill="#26352A">淡豆沙绿</text>
+      <text x="20" y="70" font-size="13" fill="#26352A" opacity="0.68">SOFT GREEN</text>
+      <text x="20" y="126" font-family="Georgia" font-size="34" fill="#26352A">Aa</text>
+      <text x="20" y="168" font-size="13" fill="#26352A">#DCEAD8 · 10.34:1</text>
+    </g>
+    <g transform="translate(248 24)">
+      <rect width="200" height="202" rx="20" fill="#F5E9CE"/>
+      <text x="20" y="44" font-size="20" font-weight="700" fill="#40372A">暖米黄</text>
+      <text x="20" y="70" font-size="13" fill="#40372A" opacity="0.68">WARM PAPER</text>
+      <text x="20" y="126" font-family="Georgia" font-size="34" fill="#40372A">Aa</text>
+      <text x="20" y="168" font-size="13" fill="#40372A">#F5E9CE · 9.69:1</text>
+    </g>
+    <g transform="translate(472 24)">
+      <rect width="200" height="202" rx="20" fill="#E3EBF1"/>
+      <text x="20" y="44" font-size="20" font-weight="700" fill="#293742">雾蓝灰</text>
+      <text x="20" y="70" font-size="13" fill="#293742" opacity="0.68">MIST BLUE</text>
+      <text x="20" y="126" font-family="Georgia" font-size="34" fill="#293742">Aa</text>
+      <text x="20" y="168" font-size="13" fill="#293742">#E3EBF1 · 10.13:1</text>
+    </g>
+    <g transform="translate(696 24)">
+      <rect width="200" height="202" rx="20" fill="#252A2E"/>
+      <text x="20" y="44" font-size="20" font-weight="700" fill="#D7DDD9">深灰夜读</text>
+      <text x="20" y="70" font-size="13" fill="#D7DDD9" opacity="0.68">NIGHT GRAY</text>
+      <text x="20" y="126" font-family="Georgia" font-size="34" fill="#D7DDD9">Aa</text>
+      <text x="20" y="168" font-size="13" fill="#D7DDD9">#252A2E · 10.51:1</text>
+    </g>
+  </g>
+</svg>

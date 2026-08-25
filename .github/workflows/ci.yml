@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test theme lifecycle
+        run: node tests/theme-presets.test.mjs
+      - name: Check JavaScript syntax
+        run: |
+          node --check bootstrap.js
+          node --check content/theme-presets.js
+      - name: Validate manifest
+        run: python3 -m json.tool manifest.json >/dev/null
+      - name: Build XPI
+        run: ./build.sh
+      - name: Verify XPI
+        run: unzip -t dist/zotero-eye-care-1.0.0.xpi
+

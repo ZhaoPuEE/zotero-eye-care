@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Zotero 护眼阅读">
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B8DDBA"/>
+      <stop offset="1" stop-color="#6FA477"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="86" height="86" rx="22" fill="#F5E9CE"/>
+  <path d="M19 50c15-25 43-29 60-7-15 25-43 29-60 7Z" fill="#FFFFFF" stroke="#35543C" stroke-width="5"/>
+  <circle cx="49" cy="49" r="13" fill="url(#leaf)" stroke="#35543C" stroke-width="4"/>
+  <path d="M50 61c2-17 11-29 25-38-5 18-13 29-25 38Z" fill="#6FA477"/>
+</svg>
+

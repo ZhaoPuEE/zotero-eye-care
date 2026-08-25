@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "zotero-eye-care@zhaopu.local": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/ZhaoPuEE/zotero-eye-care/releases/download/v1.0.0/zotero-eye-care-1.0.0.xpi",
+          "update_hash": "sha256:b43e59d07e63f1d0201d5a08895f0f408a21cac9034451ed10ba693552f9b8bc",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "9.0",
+              "strict_max_version": "9.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
