@@ -16,6 +16,8 @@
 
 Zotero Eye Care is a tiny theme-preset plugin built specifically for **Zotero 9**. It adds four carefully selected palettes to Zotero Reader's native **Appearance → Themes** panel—without floating buttons, translucent PDF overlays, or changes to the library UI.
 
+> **To be clear: Zotero 9 already includes Original, Dark, Black, Snow, and Sepia themes, and it already lets users create custom themes.** This plugin does not replace those features. It adds four tuned eye-care presets and manages their installation, recovery, disable, and uninstall lifecycle.
+
 <p align="center">
   <img src="assets/palette.svg" alt="Soft Green, Warm Paper, Mist Blue, and Night Gray" width="860" />
 </p>
@@ -30,6 +32,16 @@ Zotero Eye Care is a tiny theme-preset plugin built specifically for **Zotero 9*
 | Night Gray | `#252A2E` | `#D7DDD9` | 10.51:1 | Low-light and nighttime reading |
 
 Every pair exceeds WCAG AA contrast for body text. Images, figures, and annotations keep their original colors.
+
+## Real screenshots
+
+These are genuine Zotero 9.0.6 screenshots, not mockups. Clockwise from the top left: Soft Green, Warm Paper, Night Gray, and Mist Blue. Private Zotero tabs were cropped out.
+
+<p align="center">
+  <img src="docs/screenshots/theme-gallery.jpg" alt="All four Zotero Eye Care themes running in Zotero 9" width="100%" />
+</p>
+
+The page and text are recolored by Zotero's native reader engine, while colored figures remain intact.
 
 ## Why it stays tiny
 
@@ -46,6 +58,20 @@ Every pair exceeds WCAG AA contrast for body text. Images, figures, and annotati
 3. Click the gear menu and choose **Install Plugin From File**.
 4. Select the XPI and restart Zotero if prompted.
 5. Open a document, click **Appearance**, and pick a new theme.
+
+## Use
+
+After opening a PDF, EPUB, or web snapshot:
+
+1. Click **Appearance (Aa)** in the reader toolbar.
+2. Under **Themes**, choose Soft Green, Warm Paper, Mist Blue, or Night Gray.
+3. The change applies immediately and Zotero remembers it through its native preference system.
+
+<p align="center">
+  <img src="docs/screenshots/theme-picker.jpg" alt="Selecting an Eye Care preset in Zotero's native Appearance panel" width="100%" />
+</p>
+
+> Original, Dark, Black, Snow, and Sepia are built into Zotero. The four eye-care presets below them come from this plugin. Zotero's own “+” button remains available for manual custom themes.
 
 > Tested on Zotero 9.0.6 for macOS: installation, all four live theme switches, restart persistence, disable cleanup, and re-enable recovery. The manifest currently targets Zotero `9.0.x`.
 
