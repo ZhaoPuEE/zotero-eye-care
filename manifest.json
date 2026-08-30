@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Zotero 护眼阅读",
-  "version": "1.0.0",
-  "description": "为 Zotero 9 阅读器添加四种柔和护眼主题。",
+  "version": "1.1.0",
+  "description": "为 Zotero 9 与 10 阅读器添加四种柔和护眼主题。",
   "author": "ZhaoPuEE",
   "homepage_url": "https://github.com/ZhaoPuEE/zotero-eye-care",
   "icons": {
@@ -14,7 +14,7 @@
       "id": "zotero-eye-care@zhaopu.local",
       "update_url": "https://raw.githubusercontent.com/ZhaoPuEE/zotero-eye-care/main/updates.json",
       "strict_min_version": "9.0",
-      "strict_max_version": "9.0.*"
+      "strict_max_version": "10.0.*"
     }
   }
 }

@@ -3,7 +3,7 @@ set -eu
 
 PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 DIST_DIR="$PROJECT_DIR/dist"
-XPI_PATH="$DIST_DIR/zotero-eye-care-1.0.0.xpi"
+XPI_PATH="$DIST_DIR/zotero-eye-care-1.1.0.xpi"
 
 mkdir -p "$DIST_DIR"
 rm -f "$XPI_PATH"
