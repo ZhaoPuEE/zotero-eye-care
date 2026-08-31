@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ZhaoPuEE/zotero-eye-care/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ZhaoPuEE/zotero-eye-care?style=flat-square&color=6FA477" /></a>
+  <a href="https://github.com/ZhaoPuEE/zotero-eye-care/releases/tag/v1.1.0-beta.1"><img alt="Zotero 10 Beta" src="https://img.shields.io/badge/Zotero%2010-Beta-5B8DEF?style=flat-square" /></a>
   <img alt="Zotero" src="https://img.shields.io/badge/Zotero-9%2F10-CC2936?style=flat-square" />
   <img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-0-4A7C59?style=flat-square" />
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-4A5568?style=flat-square" /></a>
@@ -14,7 +15,7 @@
 
 ---
 
-Zotero 护眼阅读是一个专为 **Zotero 9 与 10** 设计的轻量主题预设插件。它把四种经过挑选的配色直接加入 Zotero 阅读器原生的“外观 → 主题”面板，沿用 Zotero 的主题引擎和交互方式。
+Zotero 护眼阅读是一个面向 **Zotero 9 与 10** 的轻量主题预设插件。Zotero 9 为当前稳定支持版本，Zotero 10 支持现已进入公开 Beta。插件把四种经过挑选的配色直接加入 Zotero 阅读器原生的“外观 → 主题”面板，沿用 Zotero 的主题引擎和交互方式。
 
 > Zotero 9 与 10 自带“原始、深色、黑色、雪色、棕褐”主题，也支持手动新增自定义主题。本插件在此基础上提供四个调校好的护眼预设，并自动处理安装、恢复、禁用和卸载时的主题管理。
 
@@ -38,7 +39,7 @@ Zotero 护眼阅读是一个专为 **Zotero 9 与 10** 设计的轻量主题预�
 截图顺序为：左上淡豆沙绿、右上暖米黄、左下雾蓝灰、右下深灰夜读。
 
 <p align="center">
-  <img src="docs/screenshots/theme-gallery.jpg" alt="Zotero 9/10 中四种护眼主题的效果" width="100%" />
+  <img src="docs/screenshots/theme-gallery.jpg" alt="Zotero 9 中四种护眼主题的真实运行效果" width="100%" />
 </p>
 
 可以看到，页面和文字会随主题重新着色，而论文中的彩色图表仍保持原色。
@@ -53,11 +54,20 @@ Zotero 护眼阅读是一个专为 **Zotero 9 与 10** 设计的轻量主题预�
 
 ## 安装
 
-1. 从 [Latest Release](https://github.com/ZhaoPuEE/zotero-eye-care/releases/latest) 下载 `zotero-eye-care-1.1.0.xpi`。
-2. 打开 Zotero，进入 **工具 → 插件**。
-3. 点击右上角齿轮，选择 **从文件安装插件**。
-4. 选择下载的 XPI；如有提示，重启 Zotero。
-5. 打开文献，在阅读器工具栏点击 **外观**，选择新增主题。
+### 稳定版 · Zotero 9
+
+从 [Latest Release](https://github.com/ZhaoPuEE/zotero-eye-care/releases/latest) 下载 `zotero-eye-care-1.0.0.xpi`。
+
+### Beta · Zotero 10
+
+从 [v1.1.0-beta.1 Pre-release](https://github.com/ZhaoPuEE/zotero-eye-care/releases/tag/v1.1.0-beta.1) 下载 `zotero-eye-care-1.1.0-beta.1.xpi`。该版本不会通过稳定更新通道自动安装，欢迎在 Zotero 10.0.x 上验证并通过 [Issues](https://github.com/ZhaoPuEE/zotero-eye-care/issues) 反馈系统版本、Zotero 版本及测试结果。
+
+下载后：
+
+1. 打开 Zotero，进入 **工具 → 插件**。
+2. 点击右上角齿轮，选择 **从文件安装插件**。
+3. 选择下载的 XPI；如有提示，重启 Zotero。
+4. 打开文献，在阅读器工具栏点击 **外观**，选择新增主题。
 
 ## 使用方法
 
@@ -73,15 +83,15 @@ Zotero 护眼阅读是一个专为 **Zotero 9 与 10** 设计的轻量主题预�
 
 > 面板中的“原始、深色、黑色、雪色、棕褐”是 Zotero 自带主题；下面四个护眼主题由本插件添加。你仍然可以点击“+”使用 Zotero 自带的自定义主题功能。
 
-> 已针对 macOS 上的 Zotero 9.0.6 完成安装、切换、重启持久化、禁用清理和重新启用测试；Zotero 10 兼容性已对照官方开发文档与源码完成 API 审计（见 [兼容性调研](docs/ZOTERO10_COMPATIBILITY.md)）。清单兼容范围为 Zotero `9.0.x`–`10.0.x`。
+> 已针对 macOS 上的 Zotero 9.0.6 完成安装、切换、重启持久化、禁用清理和重新启用测试。Zotero 10.0.x 支持已完成官方文档与 10.0.1 源码 API 审计，现通过 Beta 收集真机反馈（见 [兼容性调研](docs/ZOTERO10_COMPATIBILITY.md)）。
 
 ## 市场定位
 
 本插件的定位是：**基于 Zotero 9/10 原生主题能力的极简护眼预设包**。
 
-| 方案 | Zotero 9 | 实现路线 | 范围 | 当前定位 |
+| 方案 | 兼容性 | 实现路线 | 范围 | 当前定位 |
 |---|---|---|---|---|
-| **Zotero 护眼阅读** | ✅ 9/10 | 原生自定义主题 | 阅读器 | 四色、极简、零依赖 |
+| **Zotero 护眼阅读** | Zotero 9 稳定 / Zotero 10 Beta | 原生自定义主题 | 阅读器 | 四色、极简、零依赖 |
 | [Zotero PDF Background](https://github.com/q77190858/zotero-pdf-background) | ✅ | 注入 PDF textLayer CSS | PDF | 功能更全，但作者已说明不再更新 |
 | [Night for Zotero 9](https://github.com/Zhou-zc-sdu/zotero-night-version-9) | ✅ | 原生主题 + UI 样式 | 主界面与阅读器 | Nord 夜间风格、三档切换 |
 | Zotero 9 原生 | ✅ | 内置主题引擎 | 阅读器 | 有默认主题和手动自定义，没有这组预设 |

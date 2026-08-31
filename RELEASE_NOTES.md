@@ -1,24 +1,24 @@
-# Zotero Eye Care 1.1.0 / Zotero 护眼阅读 1.1.0
+# Zotero Eye Care 1.1.0 Beta 1 / Zotero 护眼阅读 1.1.0 Beta 1
 
 ## 中文
 
-Zotero 10 兼容版本。本插件 1.0.0 的代码经官方开发文档与源码审计确认与 Zotero 10 API 完全兼容，本次仅将清单版本范围由 `9.0.*` 扩展至 `10.0.*`，使 Zotero 10.0.x 用户可以直接安装启用。
+Zotero 10 兼容性公开测试版。本插件代码已对照官方开发文档与 Zotero 10.0.1 源码完成 API 审计，本次开放 Beta 以收集真实系统上的安装与生命周期验证。
 
 - 支持 Zotero 9.0.x 与 10.0.x。
 - 四种护眼主题与全部生命周期行为不变。
 - 审计过程与依据见 `docs/ZOTERO10_COMPATIBILITY.md`。
 
-下载下方 `zotero-eye-care-1.1.0.xpi`，在 Zotero 的“工具 → 插件”中选择“从文件安装插件”。
+下载下方 `zotero-eye-care-1.1.0-beta.1.xpi`，在 Zotero 的“工具 → 插件”中选择“从文件安装插件”。请反馈操作系统、Zotero 版本，以及安装、切换、重启、禁用、重新启用和卸载结果。
 
 ## English
 
-Zotero 10 compatibility release. The 1.0.0 code was audited against the official Zotero 10 developer changelog and source and found fully API-compatible; this release only widens the manifest version range from `9.0.*` to `10.0.*` so Zotero 10.0.x users can install and enable it.
+Public Zotero 10 compatibility beta. The plugin APIs were audited against the official developer documentation and Zotero 10.0.1 source. This beta collects installation and lifecycle results from real Zotero 10 systems.
 
 - Supports Zotero 9.0.x and 10.0.x.
 - All four palettes and the full install/disable/uninstall lifecycle are unchanged.
 - The audit and its evidence are in `docs/ZOTERO10_COMPATIBILITY.md`.
 
-Download `zotero-eye-care-1.1.0.xpi` below, then use Tools → Plugins → Install Plugin From File in Zotero.
+Download `zotero-eye-care-1.1.0-beta.1.xpi` below, then use Tools → Plugins → Install Plugin From File in Zotero. Please report your OS, Zotero version, and the results of install, switching, restart, disable, re-enable, and uninstall checks.
 
 ---
 
@@ -47,4 +47,3 @@ The first public release adds four calm palettes to Zotero 9.0.x Reader: Soft Gr
 - Tested on Zotero 9.0.6 for macOS: installation, all four live switches, restart persistence, disable cleanup, and re-enable recovery.
 
 Download `zotero-eye-care-1.0.0.xpi` below, then use Tools → Plugins → Install Plugin From File in Zotero.
-
