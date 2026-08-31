@@ -1,3 +1,27 @@
+# Zotero Eye Care 1.1.0 / Zotero 护眼阅读 1.1.0
+
+## 中文
+
+Zotero 10 兼容版本。本插件 1.0.0 的代码经官方开发文档与源码审计确认与 Zotero 10 API 完全兼容，本次仅将清单版本范围由 `9.0.*` 扩展至 `10.0.*`，使 Zotero 10.0.x 用户可以直接安装启用。
+
+- 支持 Zotero 9.0.x 与 10.0.x。
+- 四种护眼主题与全部生命周期行为不变。
+- 审计过程与依据见 `docs/ZOTERO10_COMPATIBILITY.md`。
+
+下载下方 `zotero-eye-care-1.1.0.xpi`，在 Zotero 的“工具 → 插件”中选择“从文件安装插件”。
+
+## English
+
+Zotero 10 compatibility release. The 1.0.0 code was audited against the official Zotero 10 developer changelog and source and found fully API-compatible; this release only widens the manifest version range from `9.0.*` to `10.0.*` so Zotero 10.0.x users can install and enable it.
+
+- Supports Zotero 9.0.x and 10.0.x.
+- All four palettes and the full install/disable/uninstall lifecycle are unchanged.
+- The audit and its evidence are in `docs/ZOTERO10_COMPATIBILITY.md`.
+
+Download `zotero-eye-care-1.1.0.xpi` below, then use Tools → Plugins → Install Plugin From File in Zotero.
+
+---
+
 # Zotero Eye Care 1.0.0 / Zotero 护眼阅读 1.0.0
 
 ## 中文

@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ZhaoPuEE/zotero-eye-care/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ZhaoPuEE/zotero-eye-care?style=flat-square&color=6FA477" /></a>
-  <img alt="Zotero" src="https://img.shields.io/badge/Zotero-9.0.x-CC2936?style=flat-square" />
+  <img alt="Zotero" src="https://img.shields.io/badge/Zotero-9%2F10-CC2936?style=flat-square" />
   <img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-0-4A7C59?style=flat-square" />
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-4A5568?style=flat-square" /></a>
 </p>
@@ -14,9 +14,9 @@
 
 ---
 
-Zotero Eye Care is a tiny theme-preset plugin built specifically for **Zotero 9**. It adds four carefully selected palettes to Zotero Reader's native **Appearance → Themes** panel and uses Zotero's existing theme engine and interactions.
+Zotero Eye Care is a tiny theme-preset plugin built for **Zotero 9 and 10**. It adds four carefully selected palettes to Zotero Reader's native **Appearance → Themes** panel and uses Zotero's existing theme engine and interactions.
 
-> Zotero 9 includes Original, Dark, Black, Snow, and Sepia themes and supports custom themes. This plugin adds four tuned eye-care presets and manages their installation, recovery, disable, and uninstall lifecycle.
+> Zotero 9 and 10 include Original, Dark, Black, Snow, and Sepia themes and support custom themes. This plugin adds four tuned eye-care presets and manages their installation, recovery, disable, and uninstall lifecycle.
 
 <p align="center">
   <img src="assets/palette.svg" alt="Soft Green, Warm Paper, Mist Blue, and Night Gray" width="860" />
@@ -38,7 +38,7 @@ Every pair exceeds WCAG AA contrast for body text. Images, figures, and annotati
 Clockwise from the top left: Soft Green, Warm Paper, Night Gray, and Mist Blue.
 
 <p align="center">
-  <img src="docs/screenshots/theme-gallery.jpg" alt="All four Zotero Eye Care themes running in Zotero 9" width="100%" />
+  <img src="docs/screenshots/theme-gallery.jpg" alt="All four Zotero Eye Care themes running in Zotero 9/10" width="100%" />
 </p>
 
 The page and text are recolored by Zotero's native reader engine, while colored figures remain intact.
@@ -46,14 +46,14 @@ The page and text are recolored by Zotero's native reader engine, while colored 
 ## Why it stays tiny
 
 - **Native by design** — themes live in Zotero's own Appearance panel and use its persistence and sync behavior.
-- **Native recoloring** — Zotero 9's reader theme engine recolors the page and text.
+- **Native recoloring** — Zotero 9/10's reader theme engine recolors the page and text.
 - **Reader scope** — works with PDF, EPUB, and web snapshots while leaving the library UI unchanged.
 - **Lightweight** — zero third-party dependencies, with theme switching handled locally.
 - **Compatible lifecycle** — existing custom themes are preserved; disable or uninstall removes only these four presets.
 
 ## Install
 
-1. Download `zotero-eye-care-1.0.0.xpi` from the [latest release](https://github.com/ZhaoPuEE/zotero-eye-care/releases/latest).
+1. Download `zotero-eye-care-1.1.0.xpi` from the [latest release](https://github.com/ZhaoPuEE/zotero-eye-care/releases/latest).
 2. In Zotero, open **Tools → Plugins**.
 3. Click the gear menu and choose **Install Plugin From File**.
 4. Select the XPI and restart Zotero if prompted.
@@ -73,15 +73,15 @@ After opening a PDF, EPUB, or web snapshot:
 
 > Original, Dark, Black, Snow, and Sepia are built into Zotero. The four eye-care presets below them come from this plugin. Zotero's own “+” button remains available for manual custom themes.
 
-> Tested on Zotero 9.0.6 for macOS: installation, all four live theme switches, restart persistence, disable cleanup, and re-enable recovery. The manifest currently targets Zotero `9.0.x`.
+> Tested on Zotero 9.0.6 for macOS: installation, all four live theme switches, restart persistence, disable cleanup, and re-enable recovery. Zotero 10 compatibility is verified by an API audit against the official developer docs and source (see [Compatibility audit](docs/ZOTERO10_COMPATIBILITY.md)). The manifest targets Zotero `9.0.x`–`10.0.x`.
 
 ## Market position
 
-Its focus is **a minimal, curated preset pack built directly on Zotero 9's native theme system**.
+Its focus is **a minimal, curated preset pack built directly on Zotero 9/10's native theme system**.
 
 | Option | Zotero 9 | Approach | Scope | Position |
 |---|---|---|---|---|
-| **Zotero Eye Care** | ✅ | Native custom themes | Reader | Four palettes, minimal, zero dependencies |
+| **Zotero Eye Care** | ✅ 9/10 | Native custom themes | Reader | Four palettes, minimal, zero dependencies |
 | [Zotero PDF Background](https://github.com/q77190858/zotero-pdf-background) | ✅ | Injected PDF text-layer CSS | PDF | More controls; README says maintenance has ended |
 | [Night for Zotero 9](https://github.com/Zhou-zc-sdu/zotero-night-version-9) | ✅ | Native themes + UI CSS | App and reader | Nord-style UI with three reader modes |
 | Zotero 9 built-in | ✅ | Built-in theme engine | Reader | Defaults and manual custom themes, but not this curated set |
@@ -97,7 +97,7 @@ node tests/theme-presets.test.mjs
 ./build.sh
 ```
 
-The XPI is written to `dist/zotero-eye-care-1.0.0.xpi`. CI verifies merge/cleanup behavior, JavaScript syntax, manifest JSON, and archive integrity.
+The XPI is written to `dist/zotero-eye-care-1.1.0.xpi`. CI verifies merge/cleanup behavior, JavaScript syntax, manifest JSON, and archive integrity.
 
 ## Privacy
 
