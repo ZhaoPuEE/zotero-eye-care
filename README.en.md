@@ -107,7 +107,7 @@ node tests/theme-presets.test.mjs
 ./build.sh
 ```
 
-The XPI is written to `dist/zotero-eye-care-1.1.0.xpi`. CI verifies merge/cleanup behavior, JavaScript syntax, manifest JSON, and archive integrity.
+On the beta branch, the XPI is written to `dist/zotero-eye-care-1.1.0-beta.1.xpi`. CI verifies merge/cleanup behavior, JavaScript syntax, manifest JSON, and archive integrity.
 
 ## Privacy
 

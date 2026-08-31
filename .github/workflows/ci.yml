@@ -26,5 +26,4 @@ jobs:
       - name: Build XPI
         run: ./build.sh
       - name: Verify XPI
-        run: unzip -t dist/zotero-eye-care-1.1.0.xpi
-
+        run: unzip -t dist/zotero-eye-care-1.1.0-beta.1.xpi

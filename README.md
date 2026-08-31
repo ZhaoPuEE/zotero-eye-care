@@ -107,7 +107,7 @@ node tests/theme-presets.test.mjs
 ./build.sh
 ```
 
-产物位于 `dist/zotero-eye-care-1.1.0.xpi`。持续集成会验证主题合并/清理逻辑、JavaScript 语法、清单 JSON 和 XPI 结构。
+Beta 分支产物位于 `dist/zotero-eye-care-1.1.0-beta.1.xpi`。持续集成会验证主题合并/清理逻辑、JavaScript 语法、清单 JSON 和 XPI 结构。
 
 ## 隐私与权限
 
